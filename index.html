@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="stylesheet" href="index.css" />
+    <title>Blackjack</title>
+  </head>
+  <body>
+    <div class="popup" onclick="myFunction()"><strong>&#8505</strong>
+        <span class="popuptext" id="myPopup">A Simple Blackjack game, try to win by scoring a perfect 21 in first two cards or draw some new card to make it 21</span></div>
+    <h1>BLACKJACK</h1>
+    <p id="message-el">Want to play few rounds ?</p>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button id="start" onclick="startGame()">START GAME</button>
+    <button onclick="newCard()">NEW CARD</button>
+    <p id="player-el"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
